@@ -8,7 +8,7 @@ const default_config = {
     scale: "C",
   },
   clock: {
-    format: "h:i p",
+    format: "h:i",
     iconColor: palette.maroon,
   },
   disabled: [],
@@ -20,83 +20,107 @@ const default_config = {
       background_url: "src/img/banners/cbg-9.gif",
       categories: [
         {
-          name: "bookmarks",
-          links: [
-            {
-              name: "raindrop",
-              url: "https://app.raindrop.io",
-              icon: "droplet-bolt",
-              icon_color: palette.green,
-            },
-            {
-              name: "musicForProgramming();",
-              url: "https://musicforprogramming.net",
-              icon: "binary-tree",
-              icon_color: palette.peach,
-            },
-          ],
-        },
-        {
-          name: "workspace",
-          links: [
-            {
-              name: "gmail",
-              url: "https://mail.google.com",
-              icon: "brand-gmail",
-              icon_color: palette.green,
-            },
-            {
-              name: "calendar",
-              url: "https://calendar.google.com",
-              icon: "calendar-filled",
-              icon_color: palette.peach,
-            },
-            {
-              name: "sheets",
-              url: "https://docs.google.com/spreadsheets",
-              icon: "table",
-              icon_color: palette.red,
-            },
-            {
-              name: "drive",
-              url: "https://drive.google.com/drive/home",
-              icon: "brand-google-drive",
-              icon_color: palette.blue,
-            },
-          ],
-        },
-        {
           name: "media",
           links: [
             {
-              name: "уп",
-              url: "https://www.pravda.com.ua",
-              icon: "news",
-              icon_color: palette.green,
+              name: "twitch",
+              url: "https://www.twitch.tv/",
+              icon: "brand-twitch",
+              icon_color: palette.mauve,
             },
             {
-              name: "mil.in.ua",
-              url: "https://mil.in.ua",
-              icon: "badge-filled",
-              icon_color: palette.peach,
-            },
-            {
-              name: "куток",
-              url: "https://kutok.io",
-              icon: "border-radius",
+              name: "youtube",
+              url: "https://www.youtube.com/",
+              icon: "brand-youtube",
               icon_color: palette.red,
             },
             {
-              name: "ґрунт",
-              url: "https://grnt.media",
-              icon: "eye-bolt",
-              icon_color: palette.blue,
+              name: "crunchyroll",
+              url: "https://www.crunchyroll.com/discover",
+              icon: "cake-roll",
+              icon_color: palette.peach,
+            },
+          ],
+        },
+        {
+          name: "reddit",
+          links: [
+            {
+              name: "r/lsf",
+              url: "www.reddit.com/r/LivestreamFail/",
+              icon: "brand-reddit",
+              icon_color: palette.peach,
             },
             {
-              name: "village",
-              url: "https://www.village.com.ua",
-              icon: "home-2",
-              icon_color: palette.mauve,
+              name: "r/all",
+              url: "https://www.reddit.com/r/all/",
+              icon: "brand-reddit",
+              icon_color: palette.peach,
+            },
+            {
+              name: "r/movies+tv",
+              url: "https://www.reddit.com/r/movies+television/",
+              icon: "brand-reddit",
+              icon_color: palette.peach,
+            },
+            {
+              name: "r/horror",
+              url: "https://www.reddit.com/r/horror/",
+              icon: "brand-reddit",
+              icon_color: palette.peach,
+            },
+            {
+              name: "r/ff",
+              url: "https://www.reddit.com/r/foundfootage/",
+              icon: "brand-reddit",
+              icon_color: palette.peach,
+            },
+            {
+              name: "r/futebol",
+              url: "https://www.reddit.com/r/futebol/",
+              icon: "brand-reddit",
+              icon_color: palette.peach,
+            },
+          ],
+        },
+        {
+          name: "utilities",
+          links: [
+            {
+              name: "ge",
+              url: "https://ge.globo.com/",
+              icon: "play-football",
+              icon_color: palette.green,
+            },
+            {
+              name: "g1",
+              url: "https://g1.globo.com/",
+              icon: "news",
+              icon_color: palette.red,
+            },
+            {
+              name: "blackscreen",
+              url: "https://blackscreen.app/",
+              icon: "device-desktop",
+              icon_color: palette.lavender,
+            },
+            {
+              name: "trakt.tv",
+              url: "https://trakt.tv/dashboard",
+              icon: "checks",
+              icon_color: palette.pink,
+            },
+            {
+              name: "metacritic",
+              url: "https://www.metacritic.com/",
+              icon: "letter-m-small",
+              icon_color: palette.yellow,
+            },
+            {
+              name: "rottentomatoes",
+              url: "https://www.rottentomatoes.com/",
+              icon: "letter-r-small",
+              icon_color: palette.red,
             },
           ],
         },
