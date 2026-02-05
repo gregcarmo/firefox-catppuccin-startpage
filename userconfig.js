@@ -53,7 +53,7 @@ const default_config = {
           links: [
             {
               name: "r/lsf",
-              url: "www.reddit.com/r/LivestreamFail/",
+              url: "https://www.reddit.com/r/LivestreamFail/",
               icon: "brand-reddit",
               icon_color: palette.peach,
             },
