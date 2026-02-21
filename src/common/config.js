@@ -1,6 +1,11 @@
 class Config {
   defaults = {
     overrideStorage: false,
+    crypto: {
+      currency: "USD",
+      coin: "ETH",
+      refreshIn: 15,
+    },
     temperature: {
       location: "London",
       scale: "C",

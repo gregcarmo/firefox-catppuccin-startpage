@@ -7,6 +7,11 @@ const default_config = {
     location: "Itumbiara",
     scale: "C",
   },
+  crypto: {
+    currency: "USD",
+    coin: "BTC",
+    refreshIn: 1800,
+  },
   clock: {
     format: "h:i",
     iconColor: palette.maroon,
