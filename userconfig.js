@@ -147,7 +147,7 @@ const default_config = {
             {
               name: "instagram",
               url: "https://www.instagram.com/",
-              icon: "brand-facebook",
+              icon: "brand-instagram",
               icon_color: palette.red,
             },
           ],
