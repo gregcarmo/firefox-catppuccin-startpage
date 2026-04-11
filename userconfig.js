@@ -47,7 +47,7 @@ const default_config = {
             },
             {
               name: "trakt.tv",
-              url: "https://trakt.tv/dashboard",
+              url: "https://app.trakt.tv",
               icon: "checks",
               icon_color: palette.pink,
             },
@@ -89,6 +89,12 @@ const default_config = {
             {
               name: "r/futebol",
               url: "https://www.reddit.com/r/futebol/",
+              icon: "brand-reddit",
+              icon_color: palette.peach,
+            },
+            {
+              name: "r/soccer",
+              url: "https://www.reddit.com/r/soccer/",
               icon: "brand-reddit",
               icon_color: palette.peach,
             },
