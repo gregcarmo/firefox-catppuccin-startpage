@@ -51,6 +51,12 @@ const default_config = {
               icon: "checks",
               icon_color: palette.pink,
             },
+            {
+              name: "simkl",
+              url: "https://simkl.com/",
+              icon: "letter-s",
+              icon_color: palette.text,
+            },
           ],
         },
         {

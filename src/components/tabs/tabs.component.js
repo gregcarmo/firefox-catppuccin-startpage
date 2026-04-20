@@ -105,7 +105,7 @@ class Tabs extends Component {
           border-radius: 5px 0 0 5px;
           width: 90%;
           max-width: 1200px;
-          height: 450px;
+          height: 600px;
           right: 0;
           left: 0;
           top: 0;
@@ -184,7 +184,7 @@ class Tabs extends Component {
       .categories ul .links a {
           color: ${CONFIG.palette.text};
           text-decoration: none;
-          font: 700 18px 'Roboto', sans-serif;
+          font: 700 16px 'Roboto', sans-serif;
           transition: all .2s;
           display: inline-flex;
           align-items: center;
