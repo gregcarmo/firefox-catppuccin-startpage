@@ -174,7 +174,9 @@ class Tabs extends Component {
           height: 100%;
           background: ${CONFIG.palette.base};
           padding: 5%;
-          flex-wrap: wrap;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
       }
 
       .categories .links li {
